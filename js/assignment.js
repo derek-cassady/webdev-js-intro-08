@@ -38,6 +38,19 @@ function findLargestNumber(array) {
 
 }
 
+// function to find average
+function findAverage(array) {
+    let sum = 0; 
+    // create var 'sum' with 0
+    for (let i = 0; i < array.length; i++) {
+    // iterates through array starting at first element    
+        sum += array[i]; 
+        // adds each element to var 'sum'
+    }
+    return sum / array.length; 
+    // sivides var 'sum' by number of elements
+}
+
 
 // Function to render results in the DOM
 function render() {
