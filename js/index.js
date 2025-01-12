@@ -3,7 +3,7 @@
 "use strict"
 
 // Define an array of numbers
-const numbers = [10, 20, 30, 40, 50];
+// const numbers = [10, 20, 30, 40, 50];
 
 // Use a basic for loop
 // for (let i = 0; i < numbers.length; i++) {
@@ -32,9 +32,10 @@ const numbers = [10, 20, 30, 40, 50];
 // // [ 10, 20, 30, 40, 50 ] (unchanged)
 
 // Use 'forEach' to assign new values
-numbers.forEach(function(number, index, array) {
-    array[index] = number + 2; 
-    // Modifies the original array
-});
-console.log(numbers); 
-// [ 12, 22, 32, 42, 52 ]
+// numbers.forEach(function(number, index, array) {
+//     array[index] = number + 2; 
+//     // Modifies the original array
+// });
+// console.log(numbers); 
+// // [ 12, 22, 32, 42, 52 ]
+
