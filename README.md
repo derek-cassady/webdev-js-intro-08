@@ -37,7 +37,7 @@ To view the project locally, you can either open the project files in your code 
 
 #### Part 2
 
-- [ ] Navigate to the Assignment Page
+- [X] Navigate to the Assignment Page
 - [ ] Read the assignment overview and output section.
 - [ ] In `assignment.js`:
     - [ ] Create a function called `findSmallestNumber`. This function should take in the array, `myNumbers`. Loop through the array and return the smallest number.
