@@ -10,11 +10,11 @@ const myNumbers = [35, 130, 354, 100, 25, 134, 99, 200, 35];
 // Function to find smallest number
 function findSmallestNumber(array) {
     let smallest = array[0];
-    // create var with first element of array
+    // create var 'smallest' with first element of array
     for (let i = 1; i < array.length; i++) {
-        // iterates through array starting at second element
+    // iterates through array starting at second element
         if (array[i] < smallest) {
-            // compare each element to var 'smallest'.
+        // compare each element to var 'smallest'.
             smallest = array[i];
             // update var 'smallest' if current element is smaller
         }
@@ -22,7 +22,21 @@ function findSmallestNumber(array) {
     return smallest;
 }
 
+// Function to find largest number
+function findLargestNumber(array) {
+    let largest = array[0]; 
+    // create var 'largest' with first element of array
+    for (let i = 1; i < array.length; i++) {
+    // iterates through array starting at second element
+        if (array[i] > largest) {
+        // compare each element to var 'largest'.
+            largest = array[i]; 
+            // update var 'largest' if current element is larger
+        }
+    }
+    return largest; 
 
+}
 
 
 // Function to render results in the DOM
